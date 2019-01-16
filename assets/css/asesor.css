@@ -153,6 +153,9 @@ padding-left:30px;}
 	max-width:calc(800px - (30px));
 	padding-right:15px;
 	padding-left:15px;}
+
+	#heroe a{width:75%;
+		font-size:3.5rem;}
 }
 
 .wrapper:after,.footer-col-wrapper:after{content:"";
@@ -233,6 +236,9 @@ site-nav .page-link:not(:last-child){margin-right:20px;}
 	padding:5px 10px;
 	margin-left:20px;}
 	.site-nav .page-link:not(:last-child){margin-right: 0;}
+
+	#heroe a{width:80%;
+	font-size:3rem;}
 }
 
 .site-footer{border-top:5px solid #9dc10e;
