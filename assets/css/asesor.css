@@ -1,3 +1,19 @@
+#heroe{padding-bottom:2rem;}
+#heroe img{margin:1rem 0;}
+#heroe a{font-size:3rem;
+text-transform:uppercase;
+font-weight:bold;
+width:75%;
+display:block;
+margin-left:auto;
+margin-right:auto;
+color:#fff;
+background:#004488;
+text-align:center;
+padding:1rem;
+border-radius:1rem;
+text-decoration:none;}
+
 #btns-seguimiento{text-align:center;
 width:75%;
 margin-left:auto;
@@ -5,7 +21,6 @@ margin-right:auto;
 margin-top:2.5rem;}
 
 #oferta-cover{margin-bottom:1rem;
-border-bottom:2px solid #004488;
 border-top:4px solid #9dc10e;}
 
 .blog-panel{margin-bottom:1.25rem;}
@@ -32,6 +47,10 @@ padding:1rem;}
 
 .cover{max-width:100%;
 margin-bottom:1rem;}
+
+.cover-panel a,.cover-panel a:link,.cover-panel a:visited,.cover-panel a:hover{text-decoration:none;}
+.cover-panel h1,.cover-panel p{margin:0;
+padding:0;}
 
 .mosaico-cliente{width:220px;
 height:230px;
@@ -76,7 +95,8 @@ ul,ol{margin-left:30px;}
 li > ul,li > ol{margin-bottom:0;}
 
 h1,h2,h3,h4,h5,h6{font-weight: bold;
-font-family:'Opens sans', sans-serif;}
+font-family:'Opens sans', sans-serif;
+color:#004488;}
 
 iframe{border:none;}
 
