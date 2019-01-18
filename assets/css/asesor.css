@@ -1,10 +1,32 @@
 #heroe{padding-bottom:3rem;}
-#heroe img{margin:1rem 0;}
-#heroe p,#heroe li{font-size:1.25rem;
-line-height:1.75rem;}
-#heroe a{font-size:3.5rem;
+#heroe h1,#heroe h2{padding:0;
+margin:0;}
+#heroe h1{color:#004488;
+font-size:3rem;
+margin-top:2rem;}
+#heroe h2{color:#9dc10e;
+margin-bottom:1.5rem;}
+#heroe p{margin-bottom:1rem;}
+#heroe a{display:inline-block;
+text-decoration:none;
+padding:1rem;
+border-radius:.5rem;
+font-size:1.5rem;
+font-weight:bold;
+margin-right:.75rem;}
+#heroe a.non,#heroe a.non:link,#heroe a.non:visited{color:#004488;
+border:solid 2px #004488;}
+#heroe a.par,#heroe a.par:link,#heroe a.par:visited{color:#9dc10e;
+border:solid 2px #9dc10e;}
+
+#heroe a.non:hover{background:#004488;
+color:#fff;}
+#heroe a.par:hover{background:#9dc10e;
+color:#fff;}
+
+.cta-btn,.cta-btn:link,.cta-btn:visited,.cta-btn:hover{font-size:2.5rem;
 font-family:'Heebo', sans-serif;
-text-transform:lowercase;
+text-transform:uppercase;
 font-weight:bold;
 width:60%;
 display:block;
@@ -154,8 +176,15 @@ padding-left:30px;}
 	padding-right:15px;
 	padding-left:15px;}
 
-	#heroe a{width:75%;
-		font-size:3.5rem;}
+	#heroe a{width:50%;
+	font-size:2.25rem;}
+
+	#heroe a.non{text-align:center;
+	width:40%;
+	font-size:1.75rem;}
+	#heroe a.par{text-align:center;
+	width:40%;
+	font-size:1.75rem;}
 }
 
 .wrapper:after,.footer-col-wrapper:after{content:"";
@@ -237,8 +266,28 @@ site-nav .page-link:not(:last-child){margin-right:20px;}
 	margin-left:20px;}
 	.site-nav .page-link:not(:last-child){margin-right: 0;}
 
-	#heroe a{width:80%;
-	font-size:3rem;}
+	#heroe a{width:70%;
+	font-size:1.85rem;}
+
+	#heroe a.non{text-align:center;
+	width:40%;
+	font-size:1.45rem;}
+	#heroe a.par{text-align:center;
+	width:40%;
+	font-size:1.45rem;}
+}
+
+@media screen and (max-width: 550px){
+	#heroe a.non,#heroe a.par{display:block;
+	margin:1rem auto;
+	line-height:2rem;}
+
+	#heroe a.non{text-align:center;
+	width:65%;
+	font-size:2rem;}
+	#heroe a.par{text-align:center;
+	width:65%;
+	font-size:2rem;}
 }
 
 .site-footer{border-top:5px solid #9dc10e;
