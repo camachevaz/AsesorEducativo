@@ -278,16 +278,19 @@ site-nav .page-link:not(:last-child){margin-right:20px;}
 }
 
 @media screen and (max-width: 550px){
+	#heroe h1{font-size:2.25rem;}
+	#heroe h2{font-size:1.25rem;}
+
 	#heroe a.non,#heroe a.par{display:block;
 	margin:1rem auto;
 	line-height:2rem;}
 
 	#heroe a.non{text-align:center;
-	width:65%;
-	font-size:2rem;}
+	width:50%;
+	font-size:1.5rem;}
 	#heroe a.par{text-align:center;
-	width:65%;
-	font-size:2rem;}
+	width:50%;
+	font-size:1.5rem;}
 }
 
 .site-footer{border-top:5px solid #9dc10e;
