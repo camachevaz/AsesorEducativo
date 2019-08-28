@@ -1,3 +1,25 @@
+#testimonios {
+  border-top: 3px solid #9dc10e;
+  border-bottom: 3px solid #9dc10e;
+  background: #fff !important;
+  margin-top: 3rem; }
+
+.testimonio p, #testimonios h2 {
+  color: #444; }
+
+#testimonios .boton {
+  font-size: 2rem;
+  background: #004488;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  padding: 1rem 2.5rem;
+  border-radius: 2rem; }
+
+#testimonios .boton:hover {
+  text-decoration: none; }
+
 html,
 body {
   height: 100%;
