@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <h1>He colaborado con:</h1>
+  {% for image in site.static_files %}
+    {% if image.path contains 'assets/img/clientes' %}
+      <div class="mosaico-cliente" style="background-image:url({{ image.path }})">
+        <p>&nbsp;
+      </div>
+    {% endif %}
+  {% endfor %}
+  <div class="clear"></div>
+
+</article>

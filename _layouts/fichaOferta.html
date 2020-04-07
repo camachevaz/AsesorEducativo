@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <p><a href="/oferta/">← Regresar a Oferta educativa</a></p>
+        <img src="{{ "/assets/img/" | relative_url }}{{ page.imgcover }}.jpg" id="oferta-cover">
+        {{ content }}
+        <div id="btns-seguimiento">
+          <h2>¿Estás interesado?</h2>
+          <hr>
+          <p>Puedo proporcionarte más información a través de:</p>
+          <a href="http://m.me/asesoredumx?ref={{ page.imgcover }}"><img src="{{ "/assets/svg/" | relative_url }}messenger.svg" width="28"></a> 
+          <a href="mailto:hola@asesoreducativo.mx?subject=Información sobre curso"><img src="{{ "/assets/svg/" | relative_url }}correo.svg" width="48" ></a>
+          <a href="tel:+526865842356"><img src="{{ "/assets/svg/" | relative_url }}telefono.svg" width="28" ></a>
+        </div>
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
