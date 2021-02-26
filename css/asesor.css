@@ -1,0 +1,10 @@
+.cv h1{font-size:2.5rem !important;
+color:#004488;}
+.cv h3{font-size:1.75rem !important;}
+.cv p{font-size:1.5rem !important;}
+
+#cv-0{background:#9ec112;
+border-radius:.75rem .7rem 0 0;}
+#cv-1{background:#aac849;}
+#cv-2{background:#b4ce61;
+border-radius:0 0 .75rem .7rem;}
