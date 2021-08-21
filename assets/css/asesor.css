@@ -1,0 +1,10 @@
+a.popular-course-enroll,a:hover.popular-course-enroll{padding: .75rem;
+background: #9dc10e !important;
+border-radius: .5rem;
+font-weight: bold;
+color: #ffffff;}
+
+.mosaico-clientes p, .mosaico-clientes h5{text-align: center;}
+.mosaico-clientes .card{border:none;}
+
+.themeix-client-logo, .themeix-client-logo a, .owl-item, .testimonial-instructor{cursor: grab !important;}
