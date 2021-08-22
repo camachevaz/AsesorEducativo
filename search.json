@@ -51,6 +51,16 @@
     } ,
   
     {
+      "title"		: "Diagnóstico",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/cursos/diagnostico/",
+      "post_image"	: "/assets/images/servicios/diagnostico.jpg",
+      "date"		: "2018-04-12 10:35:10 -0700",
+      "excerpt"		: "Evaluación del grado escolar o asignatura específica para regularizar en los temas que el estudiante requiera."
+    } ,
+  
+    {
       "title"		: "Introducción a Google Drive y Documentos",
       "category"	: "",
       "tags"		: "",
