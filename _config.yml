@@ -1,0 +1,106 @@
+###################################################################
+# Welcome to Eduzone Jekyll Theme 
+# Developed by https://themeix.com
+# Version : 1.0.0
+###################################################################
+
+title: CHEE asesores educativos
+email: hola@asesoreducativo.mx
+description: >- # this means to ignore newlines until "baseurl:"
+  Ofrecemos asesorías, regularizaciones, y clases partículares para educación basica, y formación en el uso de TICs para la empresa, educación, y uso personal.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://asesoreducativo.mx/" # the base hostname & protocol for your site, e.g. https://example.com
+
+
+# Site Settings
+twitter_username: asesoredumx
+logo_url: /assets/images/logos/logo.png
+footer_logo_url: /assets/images/logos/claro.png
+cover_image: /assets/images/fondo-principal.jpg
+facebook_url: https://facebook.com/asesoredumx
+twitter_url: https://twitter.com/asesoredumx
+linkedin_url: https://www.linkedin.com/in/carlos-manuel-chee-v%C3%A1zquez-130bba183/
+
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-archives
+
+
+
+# Site configuration for the Jekyll 2 Pagination Gem
+pagination:
+  enabled: true
+  debug: true
+  collection: 'posts'
+  per_page: 6
+  permalink: '/pages/:num/' # Pages are simple html files 
+  title: ':title - page :num'
+  limit: 0 
+  sort_field: 'date'
+  sort_reverse: true
+  category: 'posts'
+  tag: ''
+  locale: '' 
+  trail: 
+    before: 2
+    after: 
+  extension: 'html'
+  indexpage: 'index'
+
+autopages:
+  enabled: true
+  categories: 
+    layouts: 
+      - 'category.html'
+    title: 'Categoría -  :cat'
+    permalink: '/categorias/:cat'
+  collections:
+    layouts: 
+      - 'category.html'
+    title: ' :coll' # :coll is replaced by the collection name
+    permalink: '/:coll/'
+    
+  
+  tags:
+    layouts: 
+      - 'tag.html'
+    title: 'Etiqueta - :tag' # :tag is replaced by the tag name
+    permalink: '/etiqueta/:tag'  
+      
+tag_page_layout: category
+tag_page_dir: tag
+tag_permalink_style: pretty
+
+jekyll-archives:
+  enabled: all
+  layout: category
+  permalinks:
+    category: '/categoria/:name/'
+ 
+collections:
+  authors:
+    title: Autores
+    output: true
+    permalink: /autores/:path/
+  courses:
+    title: Cursos
+    output: true
+    permalink: /cursos/:path/    
+  instructors:
+    title: Instructores
+    output: true
+    permalink: /instructores/:path/    
+  lessons:
+    title: Lecciones
+    output: true
+    permalink: /lecciones/:path/    
+    
+feed:
+  collections:
+    posts:
+      path: "/index.xml"

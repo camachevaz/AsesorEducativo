@@ -1,0 +1,21 @@
+<div class="contact-column bg-color themeix">
+    <form method="POST" action="https://formspree.io/carlos@asesoreducativo.mx" class="contact-resgister-form wow fadeIn "
+        data-wow-duration="2s">
+        <input type="hidden" name="_subject" value="Mensaje desde web">
+        <input type="hidden" name="_next" value="/contacto" >
+        <h2>Mándanos un mensaje</h2>
+        <div class="alert alert-success contact__msg" style="display: none" role="alert">
+            Tu mensaje fue enviado.
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" name="Name" placeholder="¿Cómo te llamas?" required>
+        </div>
+        <div class="form-group">
+            <input type="email" class="form-control" name="_replyto" placeholder="¿Cuál es tu correo?" required >
+        </div>
+        <div class="form-group">
+            <textarea name="Message" id="message" class="form-control" placeholder="Escribe tu mensaje" cols="30" rows="10"></textarea>
+        </div>
+        <input name="submit" type="submit" class="btn-style1 btn-color1 btn btn-primary" style="background-color: #9dc10e;" value="Enviar mensaje">
+    </form>
+</div>

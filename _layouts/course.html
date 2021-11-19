@@ -1,0 +1,31 @@
+---
+layout: default
+---   
+    {% include page-title.html %}
+    <!-- Start Themeix Course Info -->
+    <!-- End Themeix  Course Info-->
+    <!-- Start Themeix  Single-->
+    <section class="themeix-Single bg-color">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-7">
+                    <div class="themeix-single pb-5">
+                        <div class="themeix-single-thumb"><img src="{{page.image}}" alt="{{page.title}}" /></div>
+							<div class="entry-content">
+								{{content}}
+                                <p><a href="http://m.me/asesoredumx"><img src="/assets/images/fb-msg.svg" width="48"> Agendar por Messenger</a></p>
+                                <p><a href="https://wa.me/526869462551"><img src="/assets/images/wa-msg.svg" width="48"> Agendar por Whatsapp</a></p>
+                                <p>*<small>Precios expresados en pesos mexicanos, no incluyen impuestos.</small></p>
+							</div>
+                    </div>					
+                </div>
+                <div class="col-lg-4 col-md-5">
+                    <div class="themeix-sidebar-left">
+                        {% include course-sidebar.html %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Themeix Single -->
+  {% include subscribe.html %}

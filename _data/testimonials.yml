@@ -1,0 +1,42 @@
+- name: Victoria C. Canceco
+  image: /assets/images/testimonios/dulce.png
+  designation: Auxiliar de administracion, Residencia de suministro de vapor CFE
+  review: "Carlos es un excelente asesor; lo recomiendo ampliamente, es claro, paciente, y siempre busca la mejor manera para explicarte cada cosa, si de alguna no esta seguro sin duda lo investigara y te solucionara cada duda. A parte de ser un excelente ser humano tiene mucho sentido del humor."
+  signature: 
+  website: #
+
+- name: Liliana López León 
+  image: /assets/images/testimonios/liliana-l.png
+  designation: Profesora de tiempo completo, Colegio de Ciencias Sociales y Humanidades. CETYS Universidad
+  review: "Tomé el curso de ciberseguridad y me ayudó tanto personal como profesionalmente. El maestro tiene la capacidad de dirigirse a distintos públicos: tanto si eres novato y te da pena preguntar aspectos básicos, como a otros más especializados que quieran construir discusión o propiciar la creatividad. Lo recomiendo, es una persona con paciencia y entusiasmo."
+  signature: 
+  website: #
+
+- name: Melissa Gómez L. 
+  image: /assets/images/testimonios/melissa.png
+  designation: Gerente de proyectos, Idea Jardín SA de CV
+  review: "Tiene conocimiento amplio de los temas, maneja un orden de los temas a impartir, así cómo metodologías para facilitar sus cursos, pero sobre todo una gran amabilidad, paciencia, don de gente, excelente persona."
+  signature: 
+  website: #
+
+- name: Alexandra Vizcarra 
+  image: /assets/images/testimonios/alexandra.png
+  designation: Analista técnico, Biblioteca Pública Central Estatal
+  review: "Estuve presente durante una de sus presentaciones con el tema de ciberseguridad, además de tener un dominio excelente del tema, es muy hábil para explicar con ejemplos sencillos y mantiene la atención del espectador. Totalmente recomendado."
+  signature: 
+  website: #
+
+- name: Paola Díaz
+  image: /assets/images/testimonios/paola.png
+  designation: Directora, Coworkthink! - a place to work
+  review: "Recomiendo ampliamente los servicios que ofrece Carlos, es muy comprometido con su trabajo y sobre todo con sus clientes o aprendices, siempre busca dar lo mejor de sí y está dispuesto siempre a resolver tus dudas."
+  signature: 
+  website: #
+
+- name: Liliana Álvarez 
+  image: /assets/images/testimonios/liliana-a.png
+  designation: Coordinadora, Biblioteca Pública Central Estatal
+  review: "Además de ser un excelente asesor y dominar su campo profesional, es una persona dispuesta colaborar con su tiempo y experiencia en favor de la comunidad, lo cual es muy loable en estos tiempos. ¡Muchas gracias Carlos!"
+  signature: 
+  website: #
+

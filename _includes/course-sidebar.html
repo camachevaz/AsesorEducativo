@@ -1,0 +1,16 @@
+<h4 class="sidebar-title">Todos los servicios</h4>
+<div class="sidebar-recent sidebar-widget">
+    {% for course in site.courses %}
+    {% assign instructor = site.instructors | where: instructor_id, course.instructor_id | first %}
+    <div class="recent-container">
+        {% if course.image %}
+        <div class="recent-image">
+            <img src="{{course.image}}" alt="{{course.title}}">
+        </div>
+        {% endif %}
+        <div class="recent-content">
+            <a href="{{course.url}}">{{course.title}}</a>
+        </div>
+    </div>
+    {% endfor %}
+</div>

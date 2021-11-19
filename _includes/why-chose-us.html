@@ -1,0 +1,23 @@
+<div class="row">
+          <div class="col-md-6 col-lg-5">
+             <div class="themeix-section-title">
+                <h2>Por qué elegirnos</h2>
+                <div class="section-border left-border"></div>
+                <p>Tenemos más de 20 años de experiencia en impartición de clases, cursos, cátedra, pláticas, conferencias, y asesorías.</p>
+             </div>
+             {% assign counter = 0 %}
+             {% for chose in site.data.why-chose-us %}
+             {% assign counter = counter | plus:1 %}
+             <div class="themeix-video-details wow fadeIn" data-wow-duration="{{counter}}s">
+                <div class="themeix-video-logo"><img src="{{chose.icon}}" alt="{{chose.title}}" /></div>
+                <div class="themeix-video-content">
+                   <h5>{{chose.title}}</h5>
+                   <p>{{chose.subtitle}}</p>
+                </div>
+             </div>
+             {% endfor %}
+          </div>
+          <div class="col-md-6 col-lg-7">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Njc6PHgDs24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+       </div>

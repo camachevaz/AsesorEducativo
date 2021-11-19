@@ -1,0 +1,60 @@
+<!-- Start Themeix Footer -->
+<footer class="themeix-footer bg-color5">
+   <div class="themeix-footer-container section-spacing">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-5 col-md-6">
+               <div class="themeix-footer-widget wow fadeIn" data-wow-duration="2s">
+                  <div class="themeix-footer-logo"><a href="{{site.url}}"><img src="{{site.footer_logo_url}}"
+                           alt="footer logo img" /></a></div>
+                  <p>Ofrecemos asesorías, regularizaciones, y clases partículares para educación basica, y formación en el uso de TICs para la empresa, educación, y uso personal.</p>
+                  <ul class="themeix-footer-social list-inline">
+                        
+                     {% if site.facebook_url %}
+                     <li class="list-inline-item">
+                           <a class="facebook" href="{{site.facebook_url}}"><i class="fa fa-facebook"></i></a>
+                     </li>
+                     {% endif %}
+
+                     {% if site.twitter_url %}
+                     <li class="list-inline-item">
+                           <a class="twitter" href="{{site.twitter_url}}"> <i class="fa fa-twitter"></i></a>
+                     </li>
+                     {% endif %}
+
+                     {% if site.instagram_url %}
+                     <li class="list-inline-item">
+                           <a class="instagram" href="{{site.instagram_url}}"> <i class="fa fa-instagram"></i></a>
+                     </li>
+                     {% endif %}
+
+                     {% if site.pinterest_url %}
+                     <li class="list-inline-item">
+                           <a class="pinterest" href="{{site.pinterest_url}}"> <i class="fa fa-pinterest"></i></a>
+                     </li>
+                     {% endif %}
+                  </ul>
+                  <h5>Manda un mensaje</h5>
+                  <h6><a style="color: #9dc10e;" href="https://wa.me/526869462551">Haz clic para WhatsApp</a></h6>
+               </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
+               <div class="themeix-footer-widget wow fadeIn" data-wow-duration="2s">
+                  <h4>Mapa del sitio</h4>
+                  <ul class="themeix-footer-category list-inline">
+                        {% for link in site.data.footer-pages %}
+                           <li class="list-inline-item"><a href="{{link.url}}">{{link.title}}</a></li>
+                        {% endfor %}
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="themeix-footer-intro text-center">
+      <div class="container">
+            <p> &copy; {{ site.time | date: '%Y' }} {{ site.title }} | Desarrollado por Carlos Chee basado en una plantilla de <a style="color: #9dc10e;" href="https://themeix.com">themeix</a></p>
+      </div>
+   </div>
+</footer>
+<!-- End Themeix Footer -->

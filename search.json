@@ -1,113 +1,16 @@
+---
+layout: null
+---
 [
-  
+  {% for course in site.courses %}
     {
-      "title"		: "Asesoría",
-      "category"	: "",
-      "tags"		: "",
-      "url"			: "/cursos/asesoria/",
-      "post_image"	: "/assets/images/servicios/asesorias.jpg",
-      "date"		: "2018-04-12 10:35:10 -0700",
-      "excerpt"		: "Apoyo con un tema o dudas sesión de 90 minutos"
-    } ,
-  
-    {
-      "title"		: "Ciberseguridad para novatos (y no tan novatos)",
-      "category"	: "",
-      "tags"		: "",
-      "url"			: "/cursos/ciberseguridad/",
-      "post_image"	: "/assets/images/servicios/ciberseguridad.jpg",
-      "date"		: "2018-04-12 10:35:10 -0700",
-      "excerpt"		: "Protege tu identidad, datos personales, y privacidad en la nube y redes sociales."
-    } ,
-  
-    {
-      "title"		: "Clase de lengua de señas",
-      "category"	: "",
-      "tags"		: "",
-      "url"			: "/cursos/clase-LSM/",
-      "post_image"	: "/assets/images/servicios/lsm.jpeg",
-      "date"		: "2018-04-12 10:35:10 -0700",
-      "excerpt"		: "Enseñanza de la Lengua de Señas Mexicana. Sesiones de 90 minutos."
-    } ,
-  
-    {
-      "title"		: "Clase particular",
-      "category"	: "",
-      "tags"		: "",
-      "url"			: "/cursos/clase-particular/",
-      "post_image"	: "/assets/images/servicios/clase-particular.jpeg",
-      "date"		: "2018-04-12 10:35:10 -0700",
-      "excerpt"		: "Explicación y práctica de un tema o varios. A partir de tres sesiones de 1 hora, hasta 1 semana en adelante."
-    } ,
-  
-    {
-      "title"		: "Curso de preparación para ingreso a primaria",
-      "category"	: "",
-      "tags"		: "",
-      "url"			: "/cursos/curso-ingreso-primaria/",
-      "post_image"	: "/assets/images/servicios/ingreso-primaria.jpeg",
-      "date"		: "2018-04-12 10:35:10 -0700",
-      "excerpt"		: "Enseñanza de los conocimientos básicos para ingresar a primaria de preescolar. Sesiones de 90 minutos."
-    } ,
-  
-    {
-      "title"		: "Diagnóstico",
-      "category"	: "",
-      "tags"		: "",
-      "url"			: "/cursos/diagnostico/",
-      "post_image"	: "/assets/images/servicios/diagnostico.jpg",
-      "date"		: "2018-04-12 10:35:10 -0700",
-      "excerpt"		: "Evaluación del grado escolar o asignatura específica para regularizar en los temas que el estudiante requiera."
-    } ,
-  
-    {
-      "title"		: "Introducción a Google Drive y Documentos",
-      "category"	: "",
-      "tags"		: "",
-      "url"			: "/cursos/drive-docs/",
-      "post_image"	: "/assets/images/servicios/drive-docs.jpg",
-      "date"		: "2018-04-12 10:35:10 -0700",
-      "excerpt"		: "Aprovecha tu cuenta institucional de Google Workspace y organiza, crea, y edita documentos directamente desde tu navegador."
-    } ,
-  
-    {
-      "title"		: "Excel básico",
-      "category"	: "",
-      "tags"		: "",
-      "url"			: "/cursos/excel-basico/",
-      "post_image"	: "/assets/images/servicios/excel.png",
-      "date"		: "2018-04-12 10:35:10 -0700",
-      "excerpt"		: "Aprende a organizar y analizar rápidamente grandes cantidades de información, y representarla de forma visual para su mejor comprensión."
-    } ,
-  
-    {
-      "title"		: "Excel intermedio",
-      "category"	: "",
-      "tags"		: "",
-      "url"			: "/cursos/excel-intermedio/",
-      "post_image"	: "/assets/images/servicios/excel.png",
-      "date"		: "2018-04-12 10:35:10 -0700",
-      "excerpt"		: "Toma ventaja de las funciones en Excel y domínalas para facilitar el análiss, consulta, y reporte de grandes cantidades de información."
-    } ,
-  
-    {
-      "title"		: "Introducción a Google Workspace",
-      "category"	: "",
-      "tags"		: "",
-      "url"			: "/cursos/google-workspace/",
-      "post_image"	: "/assets/images/servicios/google-workspace.jpg",
-      "date"		: "2018-04-12 10:35:10 -0700",
-      "excerpt"		: "Conoce tu cuenta institucional de Google Workspace y las ventajas y servicios que te ofrece."
-    } ,
-  
-    {
-      "title"		: "Talleres",
-      "category"	: "",
-      "tags"		: "",
-      "url"			: "/cursos/talleres/",
-      "post_image"	: "/assets/images/servicios/talleres.jpg",
-      "date"		: "2018-04-12 10:35:10 -0700",
-      "excerpt"		: "Explicación y práctica de un tema o varios. A partir de 5 sesiones de 2 horas."
-    } 
-  
+      "title"		: "{{ course.name | escape }}",
+      "category"	: "{{ course.category }}",
+      "tags"		: "{{ course.tags | join: ', ' }}",
+      "url"			: "{{ site.baseurl }}{{ course.url }}",
+      "post_image"	: "{{ course.image }}",
+      "date"		: "{{ course.date }}",
+      "excerpt"		: "{{ course.description }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
 ]
