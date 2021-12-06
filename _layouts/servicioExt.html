@@ -1,0 +1,28 @@
+---
+layout: default
+---   
+    {% include page-title.html %}
+    <!-- Start Themeix Course Info -->
+    <!-- End Themeix  Course Info-->
+    <!-- Start Themeix  Single-->
+    <section class="themeix-Single bg-color">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-7">
+                    <div class="themeix-single pb-5">
+                        <div class="themeix-single-thumb"><img src="{{page.image}}" alt="{{page.title}}" /></div>
+							<div class="entry-content">
+								{{content}}
+							</div>
+                    </div>					
+                </div>
+                <div class="col-lg-4 col-md-5">
+                    <div class="themeix-sidebar-left">
+                        {% include course-sidebar.html %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Themeix Single -->
+  {% include subscribe.html %}
