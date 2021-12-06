@@ -7,7 +7,7 @@
 title: CHEE asesores educativos
 email: hola@asesoreducativo.mx
 description: >- # this means to ignore newlines until "baseurl:"
-  Ofrecemos asesorías, regularizaciones, y clases partículares para educación basica, y formación en el uso de TICs para la empresa, educación, y uso personal.
+  Ofrecemos servicios para fortalecer el proceso educativo en nivel primaria, y  capacitaciones en habilidades laborales relacionadas a las TICs.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://asesoreducativo.mx/" # the base hostname & protocol for your site, e.g. https://example.com
 
