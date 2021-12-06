@@ -88,9 +88,9 @@ collections:
     output: true
     permalink: /autores/:path/
   courses:
-    title: Cursos
+    title: Servicios
     output: true
-    permalink: /cursos/:path/    
+    permalink: /servicios/:path/    
   instructors:
     title: Instructores
     output: true
