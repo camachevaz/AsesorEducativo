@@ -1,12 +1,15 @@
 - title: Experiencia docente
   subtitle: Hemos formado generaciones desde niños de 7 años hasta adultos de +60
   icon: /assets/images/iconos/video-logo.png
+  icon-avif: /assets/images/iconos/video-logo.avif
 
 - title: Formación especializada
   subtitle: En docencia y educación con concentración en educación especial
   icon: /assets/images/iconos/video-logo2.png
+  icon-avif: /assets/images/iconos/video-logo2.avif
 
 - title: Certificaciones
   subtitle: Google Certified Educator, Estándar EC0217, Capacitdor externo STPS
   icon: /assets/images/iconos/video-logo3.png
+  icon-avif: /assets/images/iconos/video-logo3.avif
 

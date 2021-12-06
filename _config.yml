@@ -15,8 +15,11 @@ url: "https://asesoreducativo.mx/" # the base hostname & protocol for your site,
 # Site Settings
 twitter_username: asesoredumx
 logo_url: /assets/images/logos/logo.png
+logo_url-avif: /assets/images/logos/logo.avif
 footer_logo_url: /assets/images/logos/claro.png
+footer_logo_url-avif: /assets/images/logos/claro.avif
 cover_image: /assets/images/fondo-principal.jpg
+cover_image-avif: /assets/images/fondo-principal.avif
 facebook_url: https://facebook.com/asesoredumx
 twitter_url: https://twitter.com/asesoredumx
 linkedin_url: https://www.linkedin.com/in/carlos-manuel-chee-v%C3%A1zquez-130bba183/

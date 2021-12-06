@@ -5,7 +5,10 @@
     <div class="recent-container">
         {% if course.image %}
         <div class="recent-image">
-            <img src="{{course.image}}" alt="{{course.title}}">
+            <picture>
+                <source type="image/avif" srcset="{{course.image-avif}}">
+                <img src="{{course.image}}" alt="{{course.title}}">
+            </picture>
         </div>
         {% endif %}
         <div class="recent-content">
