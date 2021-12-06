@@ -10,7 +10,12 @@ layout: default
             <div class="row">
                 <div class="col-lg-8 col-md-7">
                     <div class="themeix-single pb-5">
-                        <div class="themeix-single-thumb"><img src="{{page.image}}" alt="{{page.title}}" /></div>
+                        <div class="themeix-single-thumb">
+                            <picture>
+                                <source type="image/avif" srcset="{{page.image-avif}}">
+                                <img src="{{page.image}}" alt="{{page.title}}" /></div>
+                            </picture>
+                        </div>
 							<div class="entry-content">
 								{{content}}
                                 <p><a href="http://m.me/asesoredumx"><img src="/assets/images/fb-msg.svg" width="48"> Agendar por Messenger</a></p>
