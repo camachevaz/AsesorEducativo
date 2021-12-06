@@ -8,3 +8,10 @@ color: #ffffff;}
 .mosaico-clientes .card{border:none;}
 
 .themeix-client-logo, .themeix-client-logo a, .owl-item, .testimonial-instructor{cursor: grab !important;}
+
+.cta{display: inline-block;
+background: #9dc10e;
+color: #ffffff;
+font-weight: bold;
+padding: .25rem;
+border-radius: .5rem;}
