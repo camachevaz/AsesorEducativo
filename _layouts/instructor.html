@@ -9,7 +9,10 @@ layout: default
       <div class="row">
          <div class="col-md-4">
             <div class="instructor-image">
+               <picture>
+                  <source type="image/avif" srcset="{{instructor.image-avif}}">
                   <img src="{{instructor.image}}" alt="{{instructor.name}}">
+              </picture>
             </div>
          </div>
          <div class="col-md-8">
