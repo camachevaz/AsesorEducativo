@@ -19,7 +19,7 @@ border-radius: .5rem;}
 
 .enlace-contacto{border-bottom: solid 2px #004588 !important;
 font-size: 1.25rem !important;
-border-bottom: solid 2px #004588;}
-.enlace-contacto:hover{border-bottom: solid 2px #ffffff;}
+border-bottom: solid 2px #004588 !important;}
+.enlace-contacto:hover{border-bottom: solid 2px #ffffff !important;}
 .enlace-contacto a{color: #ffffff !important;}
 .enlace-contacto a:hover{color: #ffffff !important;}
