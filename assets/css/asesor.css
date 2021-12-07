@@ -17,9 +17,9 @@ padding: .75rem;
 border-radius: .5rem;}
 .cta:hover{background: #9e83ff;}
 
-.enlace-contacto{color: #ffffff;
-margin-bottom: 1.75rem;
-border-bottom: solid 2px #004588;
-font-size: 2rem;}
-.enlace-contacto:hover{color: #ffffff;
-border-bottom: solid 2px #ffffff;}
+.enlace-contacto{color: #ffffff !important;
+margin-bottom: 1.75rem !important;
+border-bottom: solid 2px #004588 !important;
+font-size: 2rem !important;}
+.enlace-contacto:hover{color: #ffffff !important;
+border-bottom: solid 2px #ffffff !important;}
