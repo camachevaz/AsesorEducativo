@@ -112,6 +112,7 @@ pagination:
  <!-- End Themeix Testimonial -->
 
 <!-- Start Themeix Feature-->
+{% comment %}
 <section class="latest-news-box section-spacing pt-0 bg-color">
     <div class="container">
        <div class="row">
@@ -128,13 +129,12 @@ pagination:
                    {% include post-card.html %}
                 </div>
              {% endfor %}
-
           </div>
-          
          {% include pagination.html %}
        </div>
     </div>
  </section>
+ {% endcomment %}
  <!-- End Themeix Feature-->
 
 {% include subscribe.html %}
