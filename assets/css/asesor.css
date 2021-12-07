@@ -18,4 +18,7 @@ border-radius: .5rem;}
 .cta:hover{background: #9e83ff;}
 
 .enlace-contacto{color: #ffffff;
-margin-bottom: 1.75rem;}
+margin-bottom: 1.75rem;
+border-bottom: solid 2px #004588;}
+.enlace-contacto:hover{color: #ffffff;
+border-bottom: solid 2px #ffffff;}
