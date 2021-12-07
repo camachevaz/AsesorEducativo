@@ -43,7 +43,12 @@ pagination:
       <div class="themeix-client-carousel owl-carousel">
         {% for client_logo in site.data.client-logos %}
            <div class="themeix-client-logo">
-              <a href="{{client_logo.url}}"><img src="{{client_logo.logo}}" alt="client ads img" /></a>
+              <a href="{{client_logo.url}}">
+                 <picture>
+                    <source type="image/avif" srcset="{{client_logo.logo}}">
+                    <img src="{{client_logo.logo}}" alt="client ads img" />
+                 </picture>
+               </a>
            </div>
         {% endfor %}
      </div>
